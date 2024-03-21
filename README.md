@@ -16,3 +16,5 @@ WORKING with the app (from the video):
 - npm install @nuxtjs/tailwindcss
 - npm install nuxt-icon
 
+4. start to run 
+- npm run dev
