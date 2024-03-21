@@ -13,3 +13,6 @@ How to deal with the app
 - npm install @nuxtjs/tailwindcss
 - npm install nuxt-icon
 
+4. run app
+- npm run dev
+
