@@ -6,13 +6,12 @@
 
 WORKING with the app (from the video):
 1. start project (in the terminal)
-- npx nuxi@latest init app
+- npx nuxi@latest init app // ALREADY DONE, NO NEED TO DO THAT
 
 2. naviagte to the "app" folder
 - cd app
 
 3. install dependencies
-- npm install
 - npm install @nuxtjs/tailwindcss
 - npm install nuxt-icon
 
