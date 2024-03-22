@@ -1,9 +1,13 @@
 <template>
+
   <div>
+
     <h1 class="absolute text-9xl font-medium text-blue-500 z-30 select-none">
-      Assetz
+      Asseta app
     </h1>
+
     <AssetPagination>
+
       <AssetGrid :assets="assets" v-slot="{ asset, index }">
         <NuxtLink :to="`/asset/${asset.id}`" @click.native="active = asset.id">
           <AssetCard
@@ -15,11 +19,17 @@
           />
         </NuxtLink>
       </AssetGrid>
+
     </AssetPagination>
+
   </div>
+
 </template>
 
+
+
 <script setup lang="ts">
+
 const active = useState<string>();
 
 // const assets = [
@@ -33,9 +43,14 @@ const active = useState<string>();
 //   { id: "8", project_id: "8", speckle_id: "8" },
 //   { id: "9", project_id: "9", speckle_id: "9" },
 // ];
+
 const { data: assets, pending, refresh } = await useFetch("/api/assets");
 watchEffect(() => {
   console.log(assets.value);
 });
+
 </script>
+
+
+
 <style></style>
