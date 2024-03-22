@@ -19,3 +19,12 @@
 4. run app
 - npm run dev
 
+5. write some code
+- ...
+
+6. install ngrok and save it near the project loction
+- https://dashboard.ngrok.com/get-started/setup/windows
+
+7. open terminal and exectute ngrok
+- for example::: & "C:\LAPTOP\David\University\STOPNIEŃ II\IAAC\MaCAD_2023_2024\2nd MOD - BIM and Smart Construction\Digital Tools for Collaborative Workflows\Project\ngrok.exe" http 3000
+
