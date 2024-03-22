@@ -26,5 +26,7 @@
 - https://dashboard.ngrok.com/get-started/setup/windows
 
 7. open terminal and exectute ngrok
-- for example::: & "C:\LAPTOP\David\University\STOPNIEŃ II\IAAC\MaCAD_2023_2024\2nd MOD - BIM and Smart Construction\Digital Tools for Collaborative Workflows\Project\ngrok.exe" http 3000
+- for example ::: & "C:\LAPTOP\David\University\STOPNIEŃ II\IAAC\MaCAD_2023_2024\2nd MOD - BIM and Smart Construction\Digital Tools for Collaborative Workflows\Project\ngrok.exe" http 3000
 
+8. Naviagte to the right folder and run dev in another window in terminal
+- for example ::: C:\LAPTOP\David\University\STOPNIEŃ II\IAAC\MaCAD_2023_2024\2nd MOD - BIM and Smart Construction\Digital Tools for Collaborative Workflows\Project\CW_app\app> npm run dev
