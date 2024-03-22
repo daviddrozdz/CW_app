@@ -34,4 +34,9 @@
 9. Setup superbase table with data
 - https://supabase.com/dashboard/
 
-10. 
+10. write some code
+- ...
+
+11. crea .env file in the app folder with 
+- SUPABASE_URL = .....
+- SUPABASE_KEY = .....
