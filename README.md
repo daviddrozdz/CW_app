@@ -41,5 +41,8 @@
 - SUPABASE_URL = .....
 - SUPABASE_KEY = .....
 
+12. create new folder in the app for the typescript
+- "types"
+
 12. generate some typescript in the terminal in the right location (project-id should be from the .env file)
 - for example ::: C:\LAPTOP\David\University\STOPNIEŃ II\IAAC\MaCAD_2023_2024\2nd MOD - BIM and Smart Construction\Digital Tools for Collaborative Workflows\Project\CW_app\app> npx supabase gen types typescript --project-id "hlgvcvjmnacquxutxflq" --schema public > types/database.types.ts
