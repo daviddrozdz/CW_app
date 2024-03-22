@@ -22,6 +22,8 @@
   </div>
 </template>
 
+
+
 <script setup lang="ts">
 const emit = defineEmits(["paginate"]);
 
@@ -32,5 +34,7 @@ function paginate(direction: number) {
   emit("paginate");
 }
 </script>
+
+
 
 <style scoped></style>
