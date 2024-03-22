@@ -7,7 +7,7 @@
     </h1>
 
     <div class="w-full h-full flex items-center justify-center">
-      
+
       <NuxtLink class="font-bold hover:underline -rotate-90 text-white" to="/">
         Back to gallery
       </NuxtLink>
@@ -45,13 +45,14 @@
 
 const container = ref<HTMLCanvasElement | null>(null);
 
-// const asset = {
-//   id: "1",
-//   name: "Asset Name",
-//   description: "Asset Description",
-//   project_id: "1",
-//   speckle_id: "1",
-// } as { [key: string]: string };
+// Displayed properties of the asset
+const asset = {
+  id: "1",
+  name: "Asset Name",
+  description: "Asset Description",
+  project_id: "1",
+  speckle_id: "1",
+} as { [key: string]: string };
 
 const id = useRoute().params.id;
 
