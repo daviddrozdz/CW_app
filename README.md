@@ -6,8 +6,8 @@
 
 # How to deal with the app
 
-1. initialize project
-- npx nux@latest init app (app is the name) (already done - no need to repeat)
+1. initialize new project
+- npx nux@latest init app (app is the name)
 
 2. naviagte to app folder
 - cd app
